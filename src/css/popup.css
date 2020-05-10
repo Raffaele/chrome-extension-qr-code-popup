@@ -1,0 +1,22 @@
+#main-container {
+    min-width: 200px;
+    text-align: center;
+}
+
+#label-output {
+    overflow-x: scroll;
+}
+
+.hidden {
+    display: none;
+}
+
+.cmd-button {
+    width: 100%;
+}
+
+.cmd-button.selected {
+    background-color: blue;
+    color: white;
+    font-weight: bold;
+}
