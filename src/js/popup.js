@@ -12,7 +12,6 @@ function updateURL({ url }) {
         }
         return [...complete, singleInfo];
     }, []);
-    console.log(urlInfo);
     if (urlInfo.length > 1) {
         urlInfo.forEach(addButtonSelector);
     } else {
